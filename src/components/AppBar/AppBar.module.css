@@ -1,0 +1,54 @@
+.header {
+  align-items: center;
+  height: 60px;
+  background-color: rgb(214, 214, 214);
+  padding-top: 10px;
+}
+.nav {
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24px;
+}
+.btn {
+  background-color: rgb(140, 140, 140);
+  color: white;
+  border-radius: 8px;
+  padding: 5px 10px;
+  transition: all 0.5s ease;
+}
+.contacts {
+  margin-right: 300px;
+}
+.text {
+  margin-right: 50px;
+  font-size: 18px;
+  color: rgb(97, 97, 97);
+}
+.text span {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+.navlink {
+  display: flex;
+}
+.btn:hover {
+  color: black;
+  background-color: white;
+}
+.items {
+  display: flex;
+  gap: 40px;
+}
+.link {
+  color: black;
+}
+.isActive {
+  text-decoration: underline;
+  color: rgb(243, 100, 100);
+}

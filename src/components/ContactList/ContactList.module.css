@@ -1,0 +1,36 @@
+.list {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 0 10px 0 40px;
+}
+.item {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  box-shadow: 3px 5px 8px rgb(185, 185, 185);
+  background-color: rgb(244, 236, 222);
+  height: 120px;
+}
+.empty {
+  font-size: 50px;
+  font-weight: 600;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(135, 135, 244);
+}
+.error {
+  font-size: 35px;
+  font-weight: 600;
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  color: red;
+}
