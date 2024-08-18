@@ -34,3 +34,18 @@
   transform: translate(-50%, -50%);
   color: red;
 }
+@media screen and (max-width: 640px) {
+  .list {
+    display: grid;
+
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 570px) {
+  .list {
+    padding: 0 15px;
+  }
+  .item {
+    width: 300px;
+  }
+}
